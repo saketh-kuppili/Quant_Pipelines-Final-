@@ -29,4 +29,4 @@ gr.Interface(
     outputs=gr.Textbox(label="Prediction"),
     title="Quantized DistilBERT — Sentiment Analysis",
     description="Compare inference across FP32, FP16, INT8 PTQ, and INT8 QAT modes.",
-).launch()
+).launch(share=True)
