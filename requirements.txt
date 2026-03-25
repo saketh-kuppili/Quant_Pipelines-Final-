@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+scikit-learn
+numpy
+tqdm
+streamlit
+gradio
+matplotlib
+pandas
+python-dotenv
